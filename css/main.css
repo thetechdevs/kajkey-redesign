@@ -11,12 +11,62 @@
 /* লেটেস্ট মাইক্রোজবস end */
 
 /* জব ক্যাটেগরীজ start */
+.container {
+    margin-bottom: 30px;
+}
+
+.job-category-title {
+    text-align: center;
+    margin: 70px;
+    color: gray;
+}
+
+.job-category-cart {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 10px;
+    height: 200px; 
+}
+
+.job-category-cart img {
+    height: 120px;
+    padding: 25px;
+}
+
+.button-div{
+    text-align: center;
+    margin: 50px;
+}
+.pink-button{
+    color: rgb(235, 23, 99);
+    background-color: transparent;
+    border: rgb(235, 23, 99) solid 2px;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+
+.pink-button:hover{
+    color: white;
+    background-color: rgb(235, 23, 99);
+    border: rgb(235, 23, 99) solid 2px;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+
+.freelencer {
+    text-align: center;
+    margin: 50px;
+}
+
 /* জব ক্যাটেগরীজ end */
 
 /* ফ্রিল্যান্স কাজ ব্রাউজ করুন start */
 /* ফ্রিল্যান্স কাজ ব্রাউজ করুন end */
 
 /* নিজের সেট করা বাজেটের মধ্যে সেরা ফ্রিল্যান্সার দিয়ে কাজ করিয়ে নেওয়ার এখনই সুযোগ! start */
+
 /* নিজের সেট করা বাজেটের মধ্যে সেরা ফ্রিল্যান্সার দিয়ে কাজ করিয়ে নেওয়ার এখনই সুযোগ! end */
 
 /* Footer start */
