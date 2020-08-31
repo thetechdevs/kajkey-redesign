@@ -2,6 +2,34 @@
 /* Navbar end */
 
 /* Header start */
+.header {
+    margin: 0px 0px;
+    position: relative;
+    background: rgba(0, 0, 0, 0) url("/img/home/header/header.png") no-repeat scroll center center / cover;
+    text-align: left;
+    height: 600px;
+    text-align: center;
+    padding: 100px;
+}
+.headerBtn {
+    width: 20%;
+    height: 45px;
+    background-color:rgb(235, 23, 99);
+    border-color: rgb(235, 23, 99);
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+}
+.headerBtn:hover {
+    background-color: whitesmoke;
+    color:rgb(235, 23, 99);
+    border-color: rgb(235, 23, 99);
+}
+h1{
+ 
+    padding: 50px;    
+}
+
 /* Header end */
 
 /* কিভাবে ফ্রিল্যান্সার হায়ার করবেন? start */
