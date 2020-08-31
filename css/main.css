@@ -25,10 +25,23 @@
     color:rgb(235, 23, 99);
     border-color: rgb(235, 23, 99);
 }
-h1{
- 
+.textH1{
     padding: 50px;    
 }
+.jobPicture {
+    padding: 120px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+
+}
+.hireCard {
+    border: none;
+    text-align: center;
+}
+.hireBox {
+    padding: 50px;
+}
+
 
 /* Header end */
 
