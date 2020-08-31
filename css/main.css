@@ -44,7 +44,7 @@ body {
     .navbar-toggler {
         background-color: white;
     }
-    
+
     .bi-search {
         color: white;
     }
@@ -108,6 +108,12 @@ body {
 .freelancer {
     text-align: center;
     margin: 50px;
+}
+
+@media only screen and (max-width: 576) {
+    /* .cardSmall {
+        padding: 10% !important;
+    } */
 }
 /* জব ক্যাটেগরীজ end */
 
