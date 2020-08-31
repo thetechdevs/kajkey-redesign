@@ -1,4 +1,27 @@
+body {
+    /* font-size: 14px; */
+    font-family: "Noto Sans Bengali", "SoalimanLipi", sans-serif;
+    background-color: #f9f9f9;
+}
+
 /* Navbar start */
+.customNavbar {
+    height: 11vh;
+    background-color: #ffffff;
+    color: rgb(235, 23, 99);
+}
+.navbar-brand img {
+    width: 100px;
+    margin-top: 3px;
+}
+.searchBox {
+    border: 1px solid lightgray;
+    padding: 7px;
+    border-radius: 5px;
+}
+.searchBox input {
+    border: none;
+}
 /* Navbar end */
 
 /* Header start */
