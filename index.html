@@ -1,18 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansbengali.css" rel="stylesheet"/>
+
     <!-- Font Awesome Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- custom CSS -->
     <link rel="stylesheet" href="./css/main.css">
-    <title>KajKey Redesign</title>
+    <title>সেরা কোম্পানি ও ফ্রীল্যান্সারদের সাথে প্রজেক্ট করুন ঘরে বসেই! | কাজ কী</title>
 </head>
 <body>
     <!-- Navbar start -->
+    <header class="fixed-top customNavbar">
+        <nav class="container navbar navbar-expand-lg navbar-light d-flex align-items-center">
+
+            <button class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- medium and big screen logo -->
+            <a class="navbar-brand d-none d-md-block" href="/">
+                <img src="./img/home/navbar/logo.png" alt="logo">
+            </a>
+
+            <!-- small screen logo -->
+            <a class="navbar-brand d-block d-md-none" href="/">
+                <img src="./img/home/navbar/logo2.png" alt="logo">
+            </a>
+
+            <form class="searchBox d-none d-md-block">
+                <img src="./img/home/navbar/kk-search.svg" alt="">
+                <img src="./img/home/navbar/dropdown-triangle.svg" alt="">
+                <input type="text" name="search" id="search" placeholder="ফ্রীল্যান্সার খুঁজুন">
+            </form>
+          
+            <button class="btn d-block d-md-none" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                </svg>
+            </button>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body" style="width: 100%;">
+                    <form class="searchBox">
+                        <img src="./img/home/navbar/kk-search.svg" alt="">
+                        <img src="./img/home/navbar/dropdown-triangle.svg" alt="">
+                        <input type="text" name="search" id="search">
+                    </form>
+                </div>
+            </div>
+
+            <button class="navbar-toggler d-none d-md-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto d-flex justify-content-around">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ফ্রিল্যান্সার
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">কাজ খুঁজুন</a>
+                            <a class="dropdown-item" href="#">গিগ পোস্ট করুন</a>
+                            <a class="dropdown-item" href="#">প্রোফাইল ক্রিয়েট করুন</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            এমপ্লয়ার
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">কাজ পোস্ট করুন</a>
+                            <a class="dropdown-item" href="#">ফ্রিল্যান্সার খুঁজুন</a>
+                            <a class="dropdown-item" href="#">সকল গিগস</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav mr-auto my-2 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link navText" href="#" tabindex="-1" aria-disabled="true">লগ ইন</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navText" href="#" tabindex="-1" aria-disabled="true">সাইন আপ</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
     <!-- Navbar end -->
 
 
@@ -90,54 +180,51 @@
         </div>
 
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-sm-4 col-md-3 cardSmall">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/website-development-icon.svg" alt="">
+                    <img src="./img/home/jobCategory/website-development-icon.svg" alt="website-development-icon">
                     <h5>ওয়েব ডেভলপমেন্ট</h5>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-sm-4 col-md-3 cardSmall">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/mobile-icon.svg" alt="">
+                    <img src="./img/home/jobCategory/mobile-icon.svg" alt="mobile-icon">
                     <h5>মোবাইল ডেভেলপমেন্ট</h5>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-sm-4 col-md-3 cardSmall">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/graphic-design.svg" alt="">
+                    <img src="./img/home/jobCategory/graphic-design.svg" alt="graphic-design">
                     <h5>গ্রাফিক ডিজাইন</h5>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-sm-4 col-md-3 cardSmall">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/video-icon.svg" alt="">
+                    <img src="./img/home/jobCategory/video-icon.svg" alt="video-icon">
                     <h5>ভিডিও এনিমেশন</h5>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-3">
+            <div class="col-sm-4 col-md-3 cardSmall">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/virtual-assistant.svg" alt="">
+                    <img src="./img/home/jobCategory/virtual-assistant.svg" alt="virtual-assistant">
                     <h5>ভার্চুয়াল এসিস্টেন্ট</h5>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-sm-4 col-md-3 cardSmall">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/customer-care-icon.svg" alt="">
+                    <img src="./img/home/jobCategory/customer-care-icon.svg" alt="customer-care-icon">
                     <h5>কাস্টমার কেয়ার</h5>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-sm-4 col-md-3 cardSmall">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/marketing-icon.svg" alt="">
+                    <img src="./img/home/jobCategory/marketing-icon.svg" alt="marketing-icon">
                     <h5>মার্কেটিং</h5>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-sm-4 col-md-3 cardSmall">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/writing-icon.svg" alt="">
+                    <img src="./img/home/jobCategory/writing-icon.svg" alt="writing-icon">
                     <h5>রাইটিং</h5>
                 </div>
             </div>
@@ -146,7 +233,6 @@
         <div class="button-div">
             <button class="pink-button">সকল ক্যাটাগরীজ দেখুন</button>
         </div>
-        
         
     </section>
     <!-- জব ক্যাটেগরীজ end -->
@@ -157,7 +243,7 @@
 
 
     <!-- নিজের সেট করা বাজেটের মধ্যে সেরা ফ্রিল্যান্সার দিয়ে কাজ করিয়ে নেওয়ার এখনই সুযোগ! start -->
-    <section class="freelencer">
+    <section class="freelancer">
         <h3>নিজের সেট করা বাজেটের মধ্যে সেরা ফ্রিল্যান্সার দিয়ে কাজ করিয়ে নেওয়ার এখনই সুযোগ!</h3>
         <div class="button-div">
             <button class="pink-button">কাজ পোস্ট করুন</button>
@@ -202,6 +288,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- extra -->
+    <script src="https://apis.google.com/js/platform.js" async="" defer=""></script>
 
     <!-- custom js -->
     <script src="./js/main.js"></script>
