@@ -20,23 +20,52 @@
     <!-- Navbar start -->
     <header class="fixed-top customNavbar">
         <nav class="container navbar navbar-expand-lg navbar-light d-flex align-items-center">
-            <a class="navbar-brand" href="/">
-                <img src="./img/home/navbar/logo.png" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <button class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <form class="searchBox">
+            <!-- medium and big screen logo -->
+            <a class="navbar-brand d-none d-md-block" href="/">
+                <img src="./img/home/navbar/logo.png" alt="logo">
+            </a>
+
+            <!-- small screen logo -->
+            <a class="navbar-brand d-block d-md-none" href="/">
+                <img src="./img/home/navbar/logo2.png" alt="logo">
+            </a>
+
+            <form class="searchBox d-none d-md-block">
                 <img src="./img/home/navbar/kk-search.svg" alt="">
                 <img src="./img/home/navbar/dropdown-triangle.svg" alt="">
-                <input type="text" name="search" id="search">
+                <input type="text" name="search" id="search" placeholder="ফ্রীল্যান্সার খুঁজুন">
             </form>
           
+            <button class="btn d-block d-md-none" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                </svg>
+            </button>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body" style="width: 100%;">
+                    <form class="searchBox">
+                        <img src="./img/home/navbar/kk-search.svg" alt="">
+                        <img src="./img/home/navbar/dropdown-triangle.svg" alt="">
+                        <input type="text" name="search" id="search">
+                    </form>
+                </div>
+            </div>
+
+            <button class="navbar-toggler d-none d-md-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
             <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto d-flex justify-content-around">
+
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             ফ্রিল্যান্সার
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -45,8 +74,9 @@
                             <a class="dropdown-item" href="#">প্রোফাইল ক্রিয়েট করুন</a>
                         </div>
                     </li>
+
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             এমপ্লয়ার
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -55,60 +85,23 @@
                             <a class="dropdown-item" href="#">সকল গিগস</a>
                         </div>
                     </li>
+
                 </ul>
 
                 <ul class="navbar-nav mr-auto my-2 my-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">লগ ইন</a>
+                        <a class="nav-link navText" href="#" tabindex="-1" aria-disabled="true">লগ ইন</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">সাইন আপ</a>
+                        <a class="nav-link navText" href="#" tabindex="-1" aria-disabled="true">সাইন আপ</a>
                     </li>
                 </ul>
             </div>
+
         </nav>
     </header>
     <!-- Navbar end -->
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 
     <!-- Header start -->
     <!-- Header end -->
@@ -132,25 +125,25 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/website-development-icon.svg" alt="">
+                    <img src="./img/home/jobCategory/website-development-icon.svg" alt="website-development-icon">
                     <h5>ওয়েব ডেভলপমেন্ট</h5>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/mobile-icon.svg" alt="">
+                    <img src="./img/home/jobCategory/mobile-icon.svg" alt="mobile-icon">
                     <h5>মোবাইল ডেভেলপমেন্ট</h5>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/graphic-design.svg" alt="">
+                    <img src="./img/home/jobCategory/graphic-design.svg" alt="graphic-design">
                     <h5>গ্রাফিক ডিজাইন</h5>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/video-icon.svg" alt="">
+                    <img src="./img/home/jobCategory/video-icon.svg" alt="video-icon">
                     <h5>ভিডিও এনিমেশন</h5>
                 </div>
             </div>
@@ -159,25 +152,25 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/virtual-assistant.svg" alt="">
+                    <img src="./img/home/jobCategory/virtual-assistant.svg" alt="virtual-assistant">
                     <h5>ভার্চুয়াল এসিস্টেন্ট</h5>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/customer-care-icon.svg" alt="">
+                    <img src="./img/home/jobCategory/customer-care-icon.svg" alt="customer-care-icon">
                     <h5>কাস্টমার কেয়ার</h5>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/marketing-icon.svg" alt="">
+                    <img src="./img/home/jobCategory/marketing-icon.svg" alt="marketing-icon">
                     <h5>মার্কেটিং</h5>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="job-category-cart">
-                    <img src="./img/home/jobCategory/writing-icon.svg" alt="">
+                    <img src="./img/home/jobCategory/writing-icon.svg" alt="writing-icon">
                     <h5>রাইটিং</h5>
                 </div>
             </div>
@@ -186,7 +179,6 @@
         <div class="button-div">
             <button class="pink-button">সকল ক্যাটাগরীজ দেখুন</button>
         </div>
-        
         
     </section>
     <!-- জব ক্যাটেগরীজ end -->
@@ -197,7 +189,7 @@
 
 
     <!-- নিজের সেট করা বাজেটের মধ্যে সেরা ফ্রিল্যান্সার দিয়ে কাজ করিয়ে নেওয়ার এখনই সুযোগ! start -->
-    <section class="freelencer">
+    <section class="freelancer">
         <h3>নিজের সেট করা বাজেটের মধ্যে সেরা ফ্রিল্যান্সার দিয়ে কাজ করিয়ে নেওয়ার এখনই সুযোগ!</h3>
         <div class="button-div">
             <button class="pink-button">কাজ পোস্ট করুন</button>
