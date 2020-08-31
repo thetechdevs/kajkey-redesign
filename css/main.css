@@ -11,6 +11,7 @@
     text-align: center;
     padding: 100px;
 }
+
 .headerBtn {
     width: 20%;
     height: 45px;
@@ -20,32 +21,33 @@
     color: white;
     margin: 10px;
 }
+
 .headerBtn:hover {
     background-color: whitesmoke;
     color:rgb(235, 23, 99);
     border-color: rgb(235, 23, 99);
 }
+/* Header end */
+
+/* কিভাবে ফ্রিল্যান্সার হায়ার করবেন? start */
 .textH1{
     padding: 50px;    
 }
+
 .jobPicture {
     padding: 120px;
     padding-bottom: 0px;
     padding-top: 0px;
-
 }
+
 .hireCard {
     border: none;
     text-align: center;
 }
+
 .hireBox {
     padding: 50px;
 }
-
-
-/* Header end */
-
-/* কিভাবে ফ্রিল্যান্সার হায়ার করবেন? start */
 /* কিভাবে ফ্রিল্যান্সার হায়ার করবেন? end */
 
 /* লেটেস্ট মাইক্রোজবস start */
