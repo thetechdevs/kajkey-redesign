@@ -1,12 +1,13 @@
+/********* all start *********/
 body {
-    /* font-size: 14px; */
     font-family: "Noto Sans Bengali", "SoalimanLipi", sans-serif;
     background-color: #f9f9f9;
 }
+/********* all end *********/
 
-/* Navbar start */
+
+/********* Navbar start *********/
 .customNavbar {
-    /* height: 11vh; */
     background-color: white;
 }
 
@@ -36,7 +37,6 @@ body {
 
 @media only screen and (max-width: 768px) {
     .customNavbar {
-        /* height: 11vh; */
         background-color: rgb(235, 23, 99);
         color: white;
     }
@@ -49,16 +49,16 @@ body {
         color: white;
     }
 }
-/* Navbar end */
+/********* Navbar end *********/
 
-/* Header start */
+
+/********* Header start *********/
 .header {
     margin: 0px 0px;
     position: relative;
     background: rgba(0, 0, 0, 0) url("/img/home/header/header.png") no-repeat scroll center center / cover;
     height: 600px;
     text-align: center;
-    
 }
 
 .headerBtn {
@@ -76,9 +76,10 @@ body {
     color:rgb(235, 23, 99);
     border-color: rgb(235, 23, 99);
 }
-/* Header end */
+/********* Header end *********/
 
-/* কিভাবে ফ্রিল্যান্সার হায়ার করবেন? start */
+
+/********* কিভাবে ফ্রিল্যান্সার হায়ার করবেন? start *********/
 .textH1{
     padding: 50px;
     margin-top: 15px;  
@@ -98,27 +99,33 @@ body {
 .hireBox {
     padding: 50px;
 }
-/* কিভাবে ফ্রিল্যান্সার হায়ার করবেন? end */
+/********* কিভাবে ফ্রিল্যান্সার হায়ার করবেন? end *********/
 
-/* লেটেস্ট মাইক্রোজবস start */
+
+/********* লেটেস্ট মাইক্রোজবস start *********/
 .microJobCardHead {
     text-decoration: none;
 }
+
 .microJobCardHead:hover {
     background-color: #e9b5c7;
 }
+
 .microJobCardTitle h5 {
     color: rgb(100, 98, 98);
 }
+
 .microJobCardTitle h5:hover {
     text-decoration: none !important;
 }
+
 .microJob {
     margin-bottom: 30px !important;
 }
-/* লেটেস্ট মাইক্রোজবস end */
+/********* লেটেস্ট মাইক্রোজবস end *********/
 
-/* জব ক্যাটেগরীজ start */
+
+/********* জব ক্যাটেগরীজ start *********/
 .container {
     margin-bottom: 30px;
 }
@@ -145,7 +152,6 @@ body {
 
 .job-category-cart:hover {
     text-align: center;
-    /* border: 1px solid lightgray; */
     border-radius: 5px;
     margin: 20px 0px;
     padding: 16px;
@@ -157,6 +163,7 @@ body {
     text-align: center;
     margin: 50px;
 }
+
 .pink-button{
     color: rgb(235, 23, 99);
     background-color: transparent;
@@ -172,26 +179,22 @@ body {
     border-radius: 5px;
     padding: 15px 25px;
 }
+/********* জব ক্যাটেগরীজ end *********/
 
-@media only screen and (max-width: 576) {
-    /* .cardSmall {
-        padding: 10% !important;
-    } */
-}
-/* জব ক্যাটেগরীজ end */
 
-/* ফ্রিল্যান্স কাজ ব্রাউজ করুন start */
+/********* ফ্রিল্যান্স কাজ ব্রাউজ করুন start *********/
 .new {
    border: 8px solid #f9f9f9; 
    bottom: 8px;
    padding: 15px;
    background-color: white;
-   
 }
+
 .button-d{
     text-align: center;
     margin: 1px;
 }
+
 .p-button{
     color: rgb(235, 23, 99);
     background-color: transparent;
@@ -207,50 +210,58 @@ body {
     border-radius: 2px;
     padding: 4px;
 }
-/* ফ্রিল্যান্স কাজ ব্রাউজ করুন end */
+/********* ফ্রিল্যান্স কাজ ব্রাউজ করুন end *********/
 
-/* নিজের সেট করা বাজেটের মধ্যে সেরা ফ্রিল্যান্সার দিয়ে কাজ করিয়ে নেওয়ার এখনই সুযোগ! start */
+
+/********* নিজের সেট করা বাজেটের মধ্যে সেরা ফ্রিল্যান্সার দিয়ে কাজ করিয়ে নেওয়ার এখনই সুযোগ! start *********/
 .freelancer {
     text-align: center;
     margin: 50px;
 }
-/* নিজের সেট করা বাজেটের মধ্যে সেরা ফ্রিল্যান্সার দিয়ে কাজ করিয়ে নেওয়ার এখনই সুযোগ! end */
+/********* নিজের সেট করা বাজেটের মধ্যে সেরা ফ্রিল্যান্সার দিয়ে কাজ করিয়ে নেওয়ার এখনই সুযোগ! end *********/
 
-/* Footer start */
+
+/********* Footer start *********/
 footer {
     background-color: dimgrey;
     color: white;
 }
+
 .footer-brand {
     padding: 15px;
 }
+
 .row-footer {
     display: flex;
     font-size: 14px;
     padding: 45px;
-    
 }
+
 .footerA {
     text-align: right;
     padding: 15px;
-    
 }
+
 .footerA h5 {
     font-size: 18px;
 }
+
 .row-footer :hover {
     color: rgb(235, 23, 99);
     text-decoration: none;
 }
+
 .color {
     color: white;
     text-align: center;
 }
+
 .footer-last {
     font-size: 15px;
     padding: 15px;
     justify-content: center;
 }
+
 .fa {
     padding: 10px;
     font-size: 15px;
@@ -275,4 +286,4 @@ footer {
     background: white;
     color: dimgrey;
 }
-/* Footer end */
+/********* Footer end *********/
