@@ -107,8 +107,14 @@ body {
 .microJobCardHead:hover {
     background-color: #e9b5c7;
 }
-.microJobCardTitle {
-    text-decoration: none;
+.microJobCardTitle h5 {
+    color: rgb(100, 98, 98);
+}
+.microJobCardTitle h5:hover {
+    text-decoration: none !important;
+}
+.microJob {
+    margin-bottom: 30px !important;
 }
 /* লেটেস্ট মাইক্রোজবস end */
 
