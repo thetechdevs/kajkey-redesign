@@ -80,13 +80,13 @@ body {
 
 /* কিভাবে ফ্রিল্যান্সার হায়ার করবেন? start */
 .textH1{
-    padding: 50px;    
+    padding: 50px;
+    margin-top: 15px;  
 }
 
 .jobPicture {
-    padding: 120px;
-    padding-bottom: 0px;
-    padding-top: 0px;
+    width: 80px;
+    margin: 0 auto;
 }
 
 .hireCard {
@@ -148,11 +148,6 @@ body {
     padding: 15px 25px;
 }
 
-.freelancer {
-    text-align: center;
-    margin: 50px;
-}
-
 @media only screen and (max-width: 576) {
     /* .cardSmall {
         padding: 10% !important;
@@ -164,7 +159,10 @@ body {
 /* ফ্রিল্যান্স কাজ ব্রাউজ করুন end */
 
 /* নিজের সেট করা বাজেটের মধ্যে সেরা ফ্রিল্যান্সার দিয়ে কাজ করিয়ে নেওয়ার এখনই সুযোগ! start */
-
+.freelancer {
+    text-align: center;
+    margin: 50px;
+}
 /* নিজের সেট করা বাজেটের মধ্যে সেরা ফ্রিল্যান্সার দিয়ে কাজ করিয়ে নেওয়ার এখনই সুযোগ! end */
 
 /* Footer start */
