@@ -8,9 +8,6 @@
 // কিভাবে ফ্রিল্যান্সার হায়ার করবেন? end
 
 // লেটেস্ট মাইক্রোজবস start
-const microJobCard = () => {
-    // document.innerHtml()
-}
 // লেটেস্ট মাইক্রোজবস end
 
 // জব ক্যাটেগরীজ start
