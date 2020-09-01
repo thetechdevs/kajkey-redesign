@@ -56,10 +56,9 @@ body {
     margin: 0px 0px;
     position: relative;
     background: rgba(0, 0, 0, 0) url("/img/home/header/header.png") no-repeat scroll center center / cover;
-    text-align: left;
     height: 600px;
     text-align: center;
-    padding: 100px;
+    
 }
 
 .headerBtn {
@@ -93,6 +92,7 @@ body {
 .hireCard {
     border: none;
     text-align: center;
+    background-color: transparent;
 }
 
 .hireBox {
