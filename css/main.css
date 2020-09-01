@@ -126,21 +126,31 @@ body {
 .job-category-title {
     text-align: center;
     margin: 70px;
-    color: gray;
 }
 
 .job-category-cart {
     text-align: center;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     border-radius: 5px;
     margin: 20px 0px;
-    padding: 10px;
-    height: 200px; 
+    padding: 16px;
+    height: 170px;
+    background-color: white; 
 }
 
 .job-category-cart img {
-    height: 120px;
+    height: 100px;
     padding: 25px;
+}
+
+.job-category-cart:hover {
+    text-align: center;
+    /* border: 1px solid lightgray; */
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 16px;
+    height: 170px; 
+    background-color: lightgray;
 }
 
 .button-div{
@@ -171,6 +181,32 @@ body {
 /* জব ক্যাটেগরীজ end */
 
 /* ফ্রিল্যান্স কাজ ব্রাউজ করুন start */
+.new {
+   border: 8px solid #f9f9f9; 
+   bottom: 8px;
+   padding: 15px;
+   background-color: white;
+   
+}
+.button-d{
+    text-align: center;
+    margin: 1px;
+}
+.p-button{
+    color: rgb(235, 23, 99);
+    background-color: transparent;
+    border: rgb(235, 23, 99) solid 2px;
+    border-radius: 2px;
+    padding: 4px;
+}
+
+.p-button:hover{
+    color: white;
+    background-color: rgb(235, 23, 99);
+    border: rgb(235, 23, 99) solid 2px;
+    border-radius: 2px;
+    padding: 4px;
+}
 /* ফ্রিল্যান্স কাজ ব্রাউজ করুন end */
 
 /* নিজের সেট করা বাজেটের মধ্যে সেরা ফ্রিল্যান্সার দিয়ে কাজ করিয়ে নেওয়ার এখনই সুযোগ! start */
@@ -223,22 +259,20 @@ footer {
     text-decoration: none;
     margin: 5px 5px;
     border-radius: 50%;
-  }
+}
   
-  .fa:hover {
-      opacity: 0.7;
-  }
+.fa:hover {
+    opacity: 0.7;
+}
   
-  .fa-facebook {
+.fa-facebook {
     background: white;
     color: dimgrey;
     font-weight: 500;
-    
-  }
-  
-  .fa-linkedin {
+}
+
+.fa-linkedin {
     background: white;
     color: dimgrey;
-  }
-
+}
 /* Footer end */
