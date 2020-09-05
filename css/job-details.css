@@ -52,41 +52,66 @@ body {
 /********* Navbar end *********/
 
 
-/********* Signup categories start *********/
-.Signup-section {
+/******** Job-details start ********/
+
+.jobDetails {
+    margin-top: 50px;
+}
+.jobBtn {
+    border-radius: 3px;
+    background-color: rgb(235, 23, 99);
+    border: none;
+    color: white;
+}
+.headerBox {
     margin-top: 100px;
     margin-bottom: 30px;
-    margin-left: 00px;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
     background-color: white;
     text-align: center;
     padding: 30px 0px;
 }
-.signupBox {
-    width: 800px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 5px;
+.rightText {
+    text-align: right;
 }
-.signupHeading {
-    padding: 15px 250px;
+.kajerDetailsBox {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    text-align: center;
+    padding: 30px 0px;
+}
+.topDiv {
+    border-bottom: 5px solid;
+}
+.kajerDetails {
+    text-align: left;
+    margin-left: 30px;
+}
+.link {
+    color: rgb(235, 23, 99);
+}
+.skillTex {
+    text-align: left;
+    margin-left: 30px;
+}
+.textBack span {
+    background-color: gray;
+}
+.picture {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.infoEmploy {
+    text-align: center;
 }
 
-.signupBtn {
-    background-color: rgb(235, 23, 99);
-    padding: 3px 15px;
-   
-    border: none;
-    border-radius: 5px;
-    color: white;
-}
-.employer {
-    border-right: 1px solid gainsboro ;
-}
-.freelancer {
-    padding: 80px 80px;
-}
-/********* Signup categories end *********/
+
+/******** Job-details end ********/
 
 
 /********* Footer start *********/
