@@ -1,0 +1,102 @@
+.profile-section {
+   margin-top: 100px;
+}
+
+.profileName {
+    float: left;
+}
+
+.profile-condition {
+    color: rgb(235, 23, 99);
+    border: 2px solid rgb(235, 23, 99);
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+    font-size: medium;
+}
+
+.star {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.experience {
+    float: left;
+    margin-right: 20px;
+}
+
+.profile {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid lightgray;
+    margin: 20px;
+}
+
+.profile-img {
+    height: 200px;
+    width: 200px;
+}
+
+.profile-detail {
+    margin-left: 20px;
+}
+
+.skill {
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+.profile-detaail {
+    margin-top: 50px;
+}
+
+.gigs-button {
+    border: 1px solid rgb(235, 23, 99);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(235, 23, 99);
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.gigs-button:hover {
+    border-radius: 5px;
+    border: 1px solid rgb(235, 23, 99);
+    color: rgb(235, 23, 99);
+    background-color: white;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.white-background {
+    margin: 20px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+.border-head {
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.border-body {
+    border-top: 1px solid lightgray;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.portfolio-img img{
+    width: 240px;
+    margin: 5px;
+}
+
+.gray-write {
+    color: gray;
+}
+
+.hr {
+    background-color: black;
+}
