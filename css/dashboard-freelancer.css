@@ -66,11 +66,11 @@
 
  .profileDataEdit-button:hover {
     border-radius: 5px;
-     border: 1px solid rgb(235, 23, 99);
-     color: rgb(235, 23, 99);
-     background-color: white;
-     padding: 5px 30px;
-     margin: 10px;
+    border: 1px solid rgb(235, 23, 99);
+    color: rgb(235, 23, 99);
+    background-color: white;
+    padding: 5px 30px;
+    margin: 10px;
  }
 
  .red-text {
