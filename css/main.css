@@ -56,7 +56,7 @@ body {
 .header {
     margin: 0px 0px;
     position: relative;
-    background: rgba(0, 0, 0, 0) url("/img/home/header/header.png") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/home/header/header.png") no-repeat scroll center center / cover;
     height: 600px;
     text-align: center;
 }
