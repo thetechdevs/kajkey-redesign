@@ -10,7 +10,12 @@
 }
 
 .red-text {
-    color: red;
+    color:rgb(235, 23, 99);
+}
+
+.textarea-text {
+    color: gray;
+    padding: 10px;
 }
 
 .work img{
@@ -26,12 +31,17 @@
     font-size: x-large;    
 }
 
-.left-sec {
-    /* padding: 40px; */
+.modalCross {
+    border: none;
+    background-color: white;
+}
+
+.modal-top {
+    justify-content: space-between;
 }
 
 .red-button {
-    border: 1px solid rgb(235, 23, 99);
+    border: 2px solid rgb(235, 23, 99);
     border-radius: 5px;
     color: white;
     background-color: rgb(235, 23, 99);
@@ -41,7 +51,7 @@
 
 .red-button:hover {
     border-radius: 5px;
-    border: 1px solid rgb(235, 23, 99);
+    border: 2px solid rgb(235, 23, 99);
     color: rgb(235, 23, 99);
     background-color: white;
     padding: 5px 20px;
@@ -82,7 +92,7 @@
 
 .lastbutton {
     border-radius: 5px;
-    border: 1px solid rgb(235, 23, 99);
+    border: 2px solid rgb(235, 23, 99);
     color: rgb(235, 23, 99);
     background-color: white;
     padding: 5px 20px;
@@ -90,7 +100,7 @@
 }
 
 .lastbutton:hover {
-    border: 1px solid rgb(235, 23, 99);
+    border: 2px solid rgb(235, 23, 99);
     border-radius: 5px;
     color: white;
     background-color: rgb(235, 23, 99);

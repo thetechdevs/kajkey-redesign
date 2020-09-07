@@ -1,0 +1,60 @@
+.create-job-section {
+    margin-top: 85px;
+    margin-bottom: 40px;
+    /* background-color: white; */
+    /* padding: 20px; */
+}
+
+.create-job-head {
+    border: 1px solid lightgray;
+    padding: 20px;
+    background-color: white;
+    
+}
+
+.create-job-body {
+    border: 1px solid lightgray;
+    border-top: none;
+    padding: 20px;
+    background-color: white;
+}
+
+.slim-border {
+    border: 2px solid lightgray;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.textArea {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: gray;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.red-text {
+    color: red;
+}
+
+.span {
+    margin-left: 100px;
+}
+
+.dash-border {
+    color: red;
+    border: 2px dashed gray;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 15px;
+    text-align: center;
+}
+
+.subnit-button {
+    border: none;
+    color: gray;
+    background-color: lightgray;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
