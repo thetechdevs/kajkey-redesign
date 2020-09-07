@@ -1,0 +1,109 @@
+.gig-topImage {
+    margin-top: 60px;
+}
+
+.gig-box {
+    margin: 20px 0px;
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+}
+
+.red-text {
+    color:rgb(235, 23, 99);
+}
+
+.textarea-text {
+    color: gray;
+    padding: 10px;
+}
+
+.work img{
+    width: 100%;
+}
+
+.work-img img{
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.textDesign {
+    font-size: x-large;    
+}
+
+.modalCross {
+    border: none;
+    background-color: white;
+}
+
+.modal-top {
+    justify-content: space-between;
+}
+
+.red-button {
+    border: 2px solid rgb(235, 23, 99);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(235, 23, 99);
+    padding: 5px 20px;
+    margin: 8px;
+}
+
+.red-button:hover {
+    border-radius: 5px;
+    border: 2px solid rgb(235, 23, 99);
+    color: rgb(235, 23, 99);
+    background-color: white;
+    padding: 5px 20px;
+    margin: 8px;
+}
+
+.top-sec {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.button-sec {
+    border: 1px solid lightgray;
+    border-top: none;
+    padding: 10px 30px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.gig-profile {
+    text-align: center;
+}
+
+.skill {
+    background-color: lightgray;
+    padding: 5px 5px;
+}
+
+.gigProfile-bottom {
+    margin-bottom: 0px;
+}
+
+.lastbutton {
+    border-radius: 5px;
+    border: 2px solid rgb(235, 23, 99);
+    color: rgb(235, 23, 99);
+    background-color: white;
+    padding: 5px 20px;
+    margin: 8px;
+}
+
+.lastbutton:hover {
+    border: 2px solid rgb(235, 23, 99);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(235, 23, 99);
+    padding: 5px 20px;
+    margin: 8px;
+}

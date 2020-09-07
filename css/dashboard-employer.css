@@ -1,0 +1,221 @@
+/********* all start *********/
+body {
+    font-family: "Noto Sans Bengali", "SoalimanLipi", sans-serif;
+    background-color: #f9f9f9;
+}
+/********* all end *********/
+
+
+/********* Navbar start *********/
+.customNavbar {
+    background-color: white;
+}
+
+.navbar-brand img {
+    width: 100px;
+    margin-top: 3px;
+}
+
+.searchBox {
+    border: 1px solid lightgray;
+    padding: 7px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.searchBox input {
+    border: none;
+}
+
+.bi-search {
+    border-color: transparent;
+}
+
+.navText {
+    color: rgb(235, 23, 99) !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .customNavbar {
+        background-color: rgb(235, 23, 99);
+        color: white;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    .bi-search {
+        color: white;
+    }
+}
+/********* Navbar end *********/
+
+
+/********* Header start *********/
+.headerMainDiv {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.headerSecondDiv {
+    padding-top: 20px;
+}
+
+.profileDiv {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -25px;
+}
+
+.profileDiv img {
+    border-radius: 5px;
+}
+
+.profileDiv button {
+    border: none;
+    background-color: transparent;
+    color: rgb(235, 23, 99);
+    margin-top: 20px;
+}
+
+.hireTextDiv {
+    margin-top: 10px;
+}
+
+.hireTextDiv p{
+    display: inline;
+}
+
+.hireText {
+    margin-left: 20px;
+}
+
+.hireDescDiv {
+    margin-top: 20px;
+}
+
+.editBtn {
+    text-align: right;
+}
+
+.editBtn button {
+    margin-right: -20px;
+    border: none;
+    background-color: rgb(235, 23, 99);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.editBtn button:hover {
+    background-color: rgba(235, 23, 99, 0.75);
+}
+/********* Header end *********/
+
+
+/********* Options start *********/
+.optionsMainDiv {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+
+.optionsMainDiv h6 {
+    font-weight: 700;
+}
+
+.editBtn2 {
+    text-align: right;
+    border: none;
+    background-color: rgb(235, 23, 99);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.optionsContent{
+    color: gray;
+    display: inline;
+    font-size: 13px;
+}
+
+.optionsText1, .optionsText2 {
+    display: inline;
+    padding-left: 50px;
+    font-size: 13px;
+}
+
+.optionsText2 {
+    color: rgb(235, 23, 99);
+}
+/********* Options end *********/
+
+
+/********* Footer start *********/
+footer {
+    background-color: dimgrey;
+    color: white;
+}
+
+.footer-brand {
+    padding: 15px;
+}
+
+.row-footer {
+    display: flex;
+    font-size: 14px;
+    padding: 45px;
+}
+
+.footerA {
+    text-align: right;
+    padding: 15px;
+}
+
+.footerA h5 {
+    font-size: 18px;
+}
+
+.row-footer :hover {
+    color: rgb(235, 23, 99);
+    text-decoration: none;
+}
+
+.color {
+    color: white;
+    text-align: center;
+}
+
+.footer-last {
+    font-size: 15px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: white;
+    color: dimgrey;
+    font-weight: 500;
+}
+
+.fa-linkedin {
+    background: white;
+    color: dimgrey;
+}
+/********* Footer end *********/
