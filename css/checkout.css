@@ -69,11 +69,12 @@ body {
     margin-left: 20px;
 }
 .card {
-    border: 2px solid;
+    border: 1px solid;
     padding: 10px;
     margin: 20px;
     margin-top: 0px;
     text-align: left;
+    border-color:lightgray;
 
 }
 

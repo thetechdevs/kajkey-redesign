@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/signupEmployer.css">
+    <link rel="stylesheet" href="./css/Gig-details.css">
+</head>
+<body>
+    <!-- Navbar start -->
+    <header class="fixed-top customNavbar">
+        <nav class="container navbar navbar-expand-lg navbar-light d-flex align-items-center">
+
+            <button class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- medium and big screen logo -->
+            <a class="navbar-brand d-none d-md-block" href="/">
+                <img src="./img/home/navbar/logo.png" alt="logo">
+            </a>
+
+            <!-- small screen logo -->
+            <a class="navbar-brand d-block d-md-none" href="/">
+                <img src="./img/home/navbar/logo2.png" alt="logo">
+            </a>
+
+            <form class="searchBox d-none d-md-block">
+                <img src="./img/home/navbar/kk-search.svg" alt="kk-search">
+                <img src="./img/home/navbar/dropdown-triangle.svg" alt="dropdown-triangle">
+                <input type="text" name="search" id="search" placeholder="ফ্রীল্যান্সার খুঁজুন">
+            </form>
+          
+            <button class="btn d-block d-md-none" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                </svg>
+            </button>
+
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body" style="width: 100%;">
+                    <form class="searchBox">
+                        <img src="./img/home/navbar/kk-search.svg" alt="kk-search">
+                        <img src="./img/home/navbar/dropdown-triangle.svg" alt="dropdown-triangle">
+                        <input type="text" name="search" id="search">
+                    </form>
+                </div>
+            </div>
+
+            <button class="navbar-toggler d-none d-md-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto d-flex justify-content-around">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ফ্রিল্যান্সার
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">কাজ খুঁজুন</a>
+                            <a class="dropdown-item" href="#">গিগ পোস্ট করুন</a>
+                            <a class="dropdown-item" href="#">প্রোফাইল ক্রিয়েট করুন</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            এমপ্লয়ার
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">কাজ পোস্ট করুন</a>
+                            <a class="dropdown-item" href="#">ফ্রিল্যান্সার খুঁজুন</a>
+                            <a class="dropdown-item" href="#">সকল গিগস</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav mr-auto my-2 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link navText" href="#" tabindex="-1" aria-disabled="true">লগ ইন</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link navText" href="#" tabindex="-1" aria-disabled="true">সাইন আপ</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <!-- Navbar end -->
+
+    <!-- gig-details -->
+    <section>
+        <div>
+            <img class="gig-topImage" src="./img/gigDetails/gig-details-topImg.png" alt="">
+        </div>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-8 left-sec">
+                    <div class="gig-box">
+                        <div class="d-flex bd-highlight">
+                            <h3 class="p-2 flex-grow-1 bd-highlight"><strong>প্রিমিয়াম ই-কমার্স ডিজাইন</strong></h3>
+                            <div class="p-2 bd-highlight gigs-button"><img src="./img/gigDetails/faceBook logo.png" alt=""><img src="./img/gigDetails/In logo.png" alt=""></div>    
+                        </div>
+                        <hr>
+                        <p class="red-text">ওয়েব ডেভলপমেন্ট</p>
+                        <div class="work">
+                            <img src="./img/gigDetails/jarci-img.png" alt="">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 work-img">
+                                <img src="./img/gigDetails/jarci-img.png" alt="">
+                            </div>
+                            <div class="col-md-3 work-img">
+                                <img src="./img/home/microJob/Zeus-Jersey-2020.jpg" alt="">
+                            </div>
+                            
+                        </div>
+                        <hr>
+                        <div class="work">
+                            <img class="shaystaKhan" src="./img/gigDetails/saesthaKhan-image.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h3>ডেসক্রিপশন</h3>
+                            <p>আমার প্যাকেজগুল</p>
+                            <p><strong>১. সাধারণ লোগো ইনপুট এবং কালার> ১০০০ টাকা</strong></p>
+                            <p><strong>২. ই-স্পোরট জার্সি (নরমাল) > ১৫০০ টাকা</strong></p>
+                            <p><strong>৩. <span class="textDesign">ই-স্পোরট জার্সি (কমপ্লেক্র ডিজাইন)</span>> ২০০ টাকা থেকে ৩০০০ টাকা (ডিজাইনের উপর)</p>
+                            <p>আমি আপনার পছন্দ অনুজায়ী ডিজাইন করে আপনাকে প্রিন্ট করার জন্য EPS এবং AI ভেক্টর ফাইল গুলো দিয়ে দিবে যেখানে প্রত্যেকটা অবজেক্ট আলাদা লেয়ার এ থাকবে।</strong></p>
+                        </div>
+                        <div>
+                            <button class="lastbutton"><strong>চ্যাট করুন</strong></button>
+                            <button class="red-button"><strong>অর্ডার করুন</strong></button>
+                        </div>
+                    </div>
+                    <div class="gig-box centerText">
+                        <p>কোনো রেটিং নেই</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <div class="top-sec">
+                        <div class="d-flex bd-highlight">
+                            <div class="p-2 flex-grow-1 bd-highlight">
+                                <img src="./img/home/microJob/icons/star-outline.svg" alt="startIcon">
+                                <img src="./img/home/microJob/icons/star-outline.svg" alt="startIcon">
+                                <img src="./img/home/microJob/icons/star-outline.svg" alt="startIcon">
+                                <img src="./img/home/microJob/icons/star-outline.svg" alt="startIcon">
+                                <img src="./img/home/microJob/icons/star-outline.svg" alt="startIcon">
+                            </div>
+                            <div class="p-2 bd-highlight red-text">1500.00 ৳</div>    
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p>Overall ratinga</p>
+                                <p>Total Reviews</p>
+                                <p>Total Sale</p>
+                                <p>Time of Delivery</p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>0.00</p>
+                                <p>0</p>
+                                <p>0</p>
+                                <p>3 দিন</p>
+                            </div>
+                        </div>
+                        <hr>
+                        </div>
+                    </div>
+                    <div class="button-sec">
+                        <button class="lastbutton"><strong>চ্যাট করুন</strong></button>
+                        <button class="red-button"><strong>অর্ডার করুন</strong></button>
+                    </div>
+
+                    <div>
+                        <div class="top-sec">
+                            <H3>স্বগতম মেসেজ</H3>
+                        </div>
+                        <div class="button-sec">
+                            <P>আমার গিগটি দেখার জন্য আপনাকে ধন্যবাদ। আপনি গিগটি অর্ডার করার আগে চাইলে আমার সাথে মেসেজে কথা বলে নিতে পারেন। মেষে কথা বলার জন্য 'ম্যাসেজ করুন' বাটন থেকে আমাকে ম্যাসেজ পাঠাতে পারবেন।</P>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="top-sec">
+                            <div class="gig-profile">
+                                <img class="profile-img" src="./img/dashboard/profilePic.png" alt="img">
+                                <h3><strong>MD ARIF HOSSAIN</strong></h3>
+                                <h4>লকেশন</h4>
+                                <h6>রাজশাহী</h6>
+                                <h4>স্কিলস</h4>
+                                
+                                <small class="skill">সফটওয়্যার ডেভ্লপমেন্ট</small>
+                                <small class="skill">ডাটা এন্ট্রি</small>
+                                <small class="skill">ওয়েব ডেভলপমেন্ট</small>
+                            </div>
+                        </div>
+                        <div class="button-sec gigProfile-bottom">
+                            <div class="gig-profile">
+                                <p>বায়ো</p>
+                            </div>
+                            <P>আমার গিগটি দেখার জন্য আপনাকে ধন্যবাদ। আপনি গিগটি অর্ডার করার আগে চাইলে আমার সাথে মেসেজে কথা বলে নিতে পারেন। মেষে কথা বলার জন্য 'ম্যাসেজ করুন' বাটন থেকে আমাকে ম্যাসেজ পাঠাতে পারবেন।</P>
+                        </div>
+                        <div class="button-sec gig-profile">
+                            <button class="lastbutton"><strong>আমার প্রোফাইল দেখুন</strong></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    
+    
+    <!-- Footer start -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="row mx-auto">
+                <div class="col-12 col-sm-4 footer-brand">
+                    <a href="#"><img src="./img/home/footer/logoFooter.png" height="40" width="90"></a>
+                </div>
+
+                <div class="col-12 col-sm-4 row-footer">
+                    <a class="color" href="#">Terms of Service</a>
+                    <div class="col-12 col-sm">
+                        <a class="color" href="#">Privacy Policy</a>
+                    </div>
+                </div>
+
+                <div class="col col-sm-4 footerA">
+                    <h5>Follow us on</h5>
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="row footer-last">
+                <div class="col-auto">
+                    <p>KajKey.com - KajKey Inc.Gowsia Jui Garden, house 2/A, road 2/1, Banani, Dhaka - 1213</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Footer end -->
+    
+</body>
+</html>

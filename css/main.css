@@ -2,6 +2,7 @@
 body {
     font-family: "Noto Sans Bengali", "SoalimanLipi", sans-serif;
     background-color: #f9f9f9;
+    overflow-x: hidden;
 }
 /********* all end *********/
 
