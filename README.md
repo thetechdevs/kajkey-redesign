@@ -1,5 +1,5 @@
 <p align="center">
-  <img src='img/home/navbar/logo.png' height="100px"/>
+  <img src='img/home/navbar/logo.png' height="100px" alt="logo" />
 </p>
 
 <h3 align="center">Kajkey Redesign</h3>
@@ -7,9 +7,9 @@
   Redesign of this site: https://kajkey.com
 </p>
 <p align="center">
-  ![GitHub deployments](https://img.shields.io/github/deployments/thetechdevs/kajkey-redesign/github-pages?label=website)
-  ![GitHub repo size](https://img.shields.io/github/repo-size/thetechdevs/kajkey-redesign)
-  ![GitHub top language](https://img.shields.io/github/languages/top/thetechdevs/kajkey-redesign)
+  <img src="https://img.shields.io/github/deployments/thetechdevs/kajkey-redesign/github-pages?label=website" height="20px" alt="deployments" />
+  <img src="https://img.shields.io/github/repo-size/thetechdevs/kajkey-redesign" height="20px" alt="repo-size" />
+  <img src="https://img.shields.io/github/languages/top/thetechdevs/kajkey-redesign" height="20px" alt="languages" />
 </p>
 
 ## A simple Bootstrap site 
