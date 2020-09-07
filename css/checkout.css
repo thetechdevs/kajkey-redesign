@@ -1,0 +1,191 @@
+/********* all start *********/
+body {
+    font-family: "Noto Sans Bengali", "SoalimanLipi", sans-serif;
+    background-color: #f9f9f9;
+}
+/********* all end *********/
+
+
+/********* Navbar start *********/
+.customNavbar {
+    background-color: white;
+}
+
+.navbar-brand img {
+    width: 100px;
+    margin-top: 3px;
+}
+
+.searchBox {
+    border: 1px solid lightgray;
+    padding: 7px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.searchBox input {
+    border: none;
+}
+
+.bi-search {
+    border-color: transparent;
+}
+
+.navText {
+    color: rgb(235, 23, 99) !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .customNavbar {
+        background-color: rgb(235, 23, 99);
+        color: white;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    .bi-search {
+        color: white;
+    }
+}
+/********* Navbar end *********/
+
+/********* checkout start *********/
+.checkout {
+    margin-top: 50px;
+}
+.checkoutHead {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    text-align: center;
+    padding: 30px 0px;
+}
+.h3 {
+    text-align: left;
+    margin-left: 20px;
+}
+.card {
+    border: 1px solid;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 0px;
+    text-align: left;
+    border-color:lightgray;
+
+}
+
+/********* লেটেস্ট মাইক্রোজবস start *********/
+.microJobCardHead {
+    text-decoration: none;
+}
+
+.microJobCardHead:hover {
+    background-color: #e9b5c7;
+}
+
+.microJobCardTitle h5 {
+    color: rgb(100, 98, 98);
+}
+
+.microJobCardTitle h5:hover {
+    text-decoration: none !important;
+}
+
+.microJob {
+    margin-bottom: 30px !important;
+}
+/********* লেটেস্ট মাইক্রোজবস end *********/
+.design {
+    text-align: left;
+    padding-left: 20px;
+}
+.Btn {
+    background-color: rgb(235, 23, 99);
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+    height: 40px;
+    margin-right: 10px;
+}
+.BtnDiv {
+    text-align: right;
+}
+   
+    
+   
+    
+
+
+/******** checkout end *********/
+
+
+/********* Footer start *********/
+footer {
+    background-color: dimgrey;
+    color: white;
+}
+
+.footer-brand {
+    padding: 15px;
+}
+
+.row-footer {
+    display: flex;
+    font-size: 14px;
+    padding: 45px;
+}
+
+.footerA {
+    text-align: right;
+    padding: 15px;
+}
+
+.footerA h5 {
+    font-size: 18px;
+}
+
+.row-footer :hover {
+    color: rgb(235, 23, 99);
+    text-decoration: none;
+}
+
+.color {
+    color: white;
+    text-align: center;
+}
+
+.footer-last {
+    font-size: 15px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: white;
+    color: dimgrey;
+    font-weight: 500;
+}
+
+.fa-linkedin {
+    background: white;
+    color: dimgrey;
+}
+/********* Footer end *********/
