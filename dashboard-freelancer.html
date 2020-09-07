@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/signupEmployer.css">
+    <link rel="stylesheet" href="./css/dashboard-freelancer.css">
+</head>
+<body>
+    <!-- Navbar start -->
+    <header class="fixed-top customNavbar">
+        <nav class="container navbar navbar-expand-lg navbar-light d-flex align-items-center">
+
+            <button class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- medium and big screen logo -->
+            <a class="navbar-brand d-none d-md-block" href="/">
+                <img src="./img/home/navbar/logo.png" alt="logo">
+            </a>
+
+            <!-- small screen logo -->
+            <a class="navbar-brand d-block d-md-none" href="/">
+                <img src="./img/home/navbar/logo2.png" alt="logo">
+            </a>
+
+            <form class="searchBox d-none d-md-block">
+                <img src="./img/home/navbar/kk-search.svg" alt="kk-search">
+                <img src="./img/home/navbar/dropdown-triangle.svg" alt="dropdown-triangle">
+                <input type="text" name="search" id="search" placeholder="ফ্রীল্যান্সার খুঁজুন">
+            </form>
+          
+            <button class="btn d-block d-md-none" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                </svg>
+            </button>
+
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body" style="width: 100%;">
+                    <form class="searchBox">
+                        <img src="./img/home/navbar/kk-search.svg" alt="kk-search">
+                        <img src="./img/home/navbar/dropdown-triangle.svg" alt="dropdown-triangle">
+                        <input type="text" name="search" id="search">
+                    </form>
+                </div>
+            </div>
+
+            <button class="navbar-toggler d-none d-md-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto d-flex justify-content-around">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ফ্রিল্যান্সার
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">কাজ খুঁজুন</a>
+                            <a class="dropdown-item" href="#">গিগ পোস্ট করুন</a>
+                            <a class="dropdown-item" href="#">প্রোফাইল ক্রিয়েট করুন</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            এমপ্লয়ার
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">কাজ পোস্ট করুন</a>
+                            <a class="dropdown-item" href="#">ফ্রিল্যান্সার খুঁজুন</a>
+                            <a class="dropdown-item" href="#">সকল গিগস</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav mr-auto my-2 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link navText" href="#" tabindex="-1" aria-disabled="true">লগ ইন</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link navText" href="#" tabindex="-1" aria-disabled="true">সাইন আপ</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <!-- Navbar end -->
+
+
+    <!-- user-profile start -->
+    <section class="container profile-section">
+        <div class="profile">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="profile-img" src="./img/dashboard/profilePic.png" alt="img">
+                    <a class="d-flex justify-content-center profilePicture-edit" href="">পরিবর্তন করুন</a>
+                </div>
+                <div class="col-md-6 profile-detail">
+                    <h3><strong>MD ARIF HOSSAIN</strong><span class="profile-condition"><span>&#10003;</span> 100% কমপ্লিট</span></h3>
+                    <div class="star">
+                        <img src="./img/home/microJob/icons/star-outline.svg" alt="startIcon">
+                        <img src="./img/home/microJob/icons/star-outline.svg" alt="startIcon">
+                        <img src="./img/home/microJob/icons/star-outline.svg" alt="startIcon">
+                        <img src="./img/home/microJob/icons/star-outline.svg" alt="startIcon">
+                        <img src="./img/home/microJob/icons/star-outline.svg" alt="startIcon">
+                    </div>
+                    <p>Web & Software Developer</p>
+                    <p class="experience">1 বছরের এক্সপেরিয়েন্স</p>
+                    <p class="experience">0 টি কাজ করেছেন</p>
+                    <p>রাজশাহী</p>
+
+                    <p  class="experience">500৳/hr</p>
+                    <p>0.00৳ উপার্জন করেছন</p>
+                    <p>যেদিন থেকে মেম্বর: 20 জানুয়ারি 2020</p>
+
+                    <small class="skill">সফটওয়্যার ডেভ্লপমেন্ট</small>
+                    <small class="skill">ডাটা এন্ট্রি</small>
+                    <small class="skill">ওয়েব ডেভলপমেন্ট</small>
+
+                    <div class="profile-detaail">
+                        <p>I mainly work with Web and Software Development, Database, Data Entry & analysis. But I also work with Photoshop & Illustrator.</p>
+                        <p>I have 3 years of experience in </p>
+                        <ul>
+                            <li>Web design with HTM5, CSS3, Javascript, jquery, Bootstrap, ajax, PHP.</li>
+                            <li>Web application with Flask, Django by Python.</li>
+                            <li>Database with Oracle, MySql, SQLite, SQLServer.</li>
+                            <li>Software Development by JavaFX, Java Swing, dot Net Framework & C#.</li>
+                            <li>Graphics design with photoshop(cs6,2018,2019), illustrator(2018,2019).</li>
+                        </ul>
+                        <p>আমি একজন দক্ষ ওয়েব এবং সফটওয়্যার ডেভেলপার। আমি ওয়েব এবং সফ্টওয়্যার ডেভেলপমেন্ট, ডেটাবেস, ডেটা এন্ট্রি এবং ডেটা বিশ্লেষণের সাথে কাজ করি। তবে আমি ফটোশপ এবং ইলাস্ট্রেটার নিয়েও কাজ করি। এবং প্রায় ৩ বছরের অভিজ্ঞতা আছে। আমি শীঘ্রই কাজ শেষ করে সেটি প্রদান করব। আমি আপনাকে আনলিমিটেড রিভিশন দেব যাতে আপনার কাজটি আপনার ইচ্ছানুসারে না করা হলেও, আপনি এটি না পাওয়া পর্যন্ত বার বার এটি পরিবর্তন করে ঠিকঠাক করার চেষ্টা করব। ধন্যবাদ</p>
+                    </div>
+                </div>
+                <div class="col-md-3 profileData-edit">
+                    <button class="profileDataEdit-button">এডিট</button>
+                    <p>0.00 ৳ উপার্জন করেছন</p>
+                    <p class="red-text">অন্যরা যেভাবে আমার প্রোফাইল দেখে</p>
+                </div>
+            </div>
+        </div>
+
+    <!-- আমার একাউন্ট start -->
+        <div class="white-background">
+            <div class="d-flex bd-highlight border-head">
+                <h3 class="p-2 flex-grow-1 bd-highlight"><strong>আমার একাউন্ট</strong></h3>
+                <button class="profileDataEdit-button" type="submit"><strong>এডিট</strong></button>
+            </div> 
+            
+            <div class="border-body">
+                <div class="row">
+                    <div class="col-md-2 myAccout-section">ইমেইল এড্রেস</div>
+                    <div class="col-md-10">arif.swfu@outlook.com</div>
+                </div>
+                <hr class="hr">
+                <div class="row">
+                    <div class="col-md-2 myAccout-section">পাসওয়াড</div>
+                    <div class="col-md-10 red-text">পাসওয়াড পরিবর্তন করুন</div>
+                </div>
+            </div>
+        </div>
+    <!-- আমার একাউন্ট end -->
+
+        <!-- আমার গিগস start -->
+        <div class="white-background">
+            <div class="d-flex bd-highlight border-head">
+                <h3 class="p-2 flex-grow-1 bd-highlight"><strong>আমার গিগস</strong></h3>
+                <button class="p-2 bd-highlight profileDataEdit-button" type="submit"><strong>আরো দেখুন</strong></button>
+                <button class="p-2 bd-highlight profileDataEdit-button" type="submit"><strong>গিগ পোস্ট করুন</strong></button>
+            </div> 
+            
+            <div class="border-body">
+
+            </div>
+        </div>
+    <!-- আমার গিগস end -->
+
+
+    <!-- work pofile start -->
+        <div class="white-background">
+            <div class="d-flex bd-highlight border-head">
+                <h3 class="p-2 flex-grow-1 bd-highlight"><strong>কাজের পোর্টফোলিও</strong></h3>
+                <button class="p-2 bd-highlight gigs-button" type="submit"><strong>যুক্ত করুন</strong></button>
+            </div>
+            <div class="border-body">
+                <div class="portfolio-img">
+                    <img src="./img/home/microJob/Zeus-Jersey-2020.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    <!-- work profile end -->
+
+        <!-- experience start -->
+        <div class="white-background">
+            <div class="d-flex bd-highlight border-head">
+                <h3 class="p-2 flex-grow-1 bd-highlight"><strong>কাজের এক্সপেরিয়েন্স</strong></h3>
+                <button class="p-2 bd-highlight profileDataEdit-button" type="submit"><strong>যুক্ত করুন</strong></button>
+            </div>
+            <div class="border-body">
+                <p>নতুন কাজের এক্সপেরিয়েন্স পোর্টফোলে  যুক্ত করুন (অপসনাল)</p>
+            </div>
+        </div>
+
+        <div class="white-background">
+            <!-- <h5 class="border-head"><strong>কাজের হিস্টোরি (0)</strong></h5> -->
+            <h3 class="border-head"><strong>কাজের হিস্টোরি (0)</strong></h3>
+            <div class="border-body">
+                <p>এখনো কোন কাজ করেননি</p>
+            </div>
+        </div>
+
+        <div class="white-background">
+            <!-- <h5 class="border-head"><strong>সার্টিফিকেশন</strong></h5> -->
+            <div class="d-flex bd-highlight border-head">
+                <h3 class="p-2 flex-grow-1 bd-highlight"><strong>সার্টিফিকেশন</strong></h3>
+                <button class="p-2 bd-highlight gigs-button" type="submit"><strong>যুক্ত করুন</strong></button>
+            </div>
+            <div class="border-body">
+                <div>
+                    <p><strong>The Complere JavaScript Course - Beginner to Professional</strong></p>
+                    <p><strong>Udemy</strong></p>
+                    <p class="gray-write">সেপ্টেম্বর 2019-আগস্ট 2015</p>
+                    <button class="profileDataEdit-button" type="submit"><strong>এডিট</strong></button>
+                    <button class="profileDataEdit-button" type="submit"><strong>রিমুভ করুন</strong></button>
+                </div>
+                <hr class="hr">
+                <div>
+                    <p><strong>Flask Web development</strong></p>
+                    <p><strong>Linkedin</strong></p>
+                    <p class="gray-write">জানুয়ারি 2019-জুন 2015</p>
+                    <button class="profileDataEdit-button" type="submit"><strong>এডিট</strong></button>
+                    <button class="profileDataEdit-button" type="submit"><strong>রিমুভ করুন</strong></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="white-background">
+            <!-- <h5 class="border-head"><strong>এডুকেশন</strong></h5> -->
+            <div class="d-flex bd-highlight border-head">
+                <h3 class="p-2 flex-grow-1 bd-highlight"><strong>এডুকেশন</strong></h3>
+                <button class="p-2 bd-highlight profileDataEdit-button" type="submit"><strong>যুক্ত করুন</strong></button>
+            </div>
+            <div class="border-body">
+                <div>
+                    <p><strong>BSc.in CSE</strong></p>
+                    <p><strong>Southwest Forestry University, Kunming, Yunnan, china</strong></p>
+                    <p class="gray-write">জানুয়ারি 2019-জুন 2015</p>
+                    <button class="profileDataEdit-button" type="submit"><strong>এডিট</strong></button>
+                    <button class="profileDataEdit-button" type="submit"><strong>রিমুভ করুন</strong></button>
+                </div>
+            </div>
+    </section>
+    <!-- user-profile end -->
+
+    
+    
+    <!-- Footer start -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="row mx-auto">
+                <div class="col-12 col-sm-4 footer-brand">
+                    <a href="#"><img src="./img/home/footer/logoFooter.png" height="40" width="90"></a>
+                </div>
+
+                <div class="col-12 col-sm-4 row-footer">
+                    <a class="color" href="#">Terms of Service</a>
+                    <div class="col-12 col-sm">
+                        <a class="color" href="#">Privacy Policy</a>
+                    </div>
+                    
+                </div>
+
+                <div class="col col-sm-4 footerA">
+                    <h5>Follow us on</h5>
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="row footer-last">
+                <div class="col-auto">
+                    <p>KajKey.com - KajKey Inc.Gowsia Jui Garden, house 2/A, road 2/1, Banani, Dhaka - 1213</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Footer end -->
+    
+</body>
+</html>

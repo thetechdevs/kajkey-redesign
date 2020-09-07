@@ -37,6 +37,11 @@
     width: 200px;
 }
 
+.profilePicture-edit:hover {
+    color: red;
+    text-decoration: none;
+}
+
 .profile-detail {
     margin-left: 20px;
 }
@@ -78,7 +83,7 @@
 }
 
 .border-head {
-    padding: 20px;
+    padding: 10px;
     padding-left: 30px;
 }
 
