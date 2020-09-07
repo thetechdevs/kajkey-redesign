@@ -142,7 +142,32 @@
                             <p>আমি আপনার পছন্দ অনুজায়ী ডিজাইন করে আপনাকে প্রিন্ট করার জন্য EPS এবং AI ভেক্টর ফাইল গুলো দিয়ে দিবে যেখানে প্রত্যেকটা অবজেক্ট আলাদা লেয়ার এ থাকবে।</strong></p>
                         </div>
                         <div>
-                            <button class="lastbutton"><strong>চ্যাট করুন</strong></button>
+    
+                            <!-- Button trigger modal -->
+                            <button type="button" class="lastbutton" data-toggle="modal" data-target="#mymodal">চ্যাট করুন</button>
+
+                            <div class="modal fade" id="mymodal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body modalBorder">
+                                            <div class="d-flex bd-highlight">
+                                                <h4 class="p-2 flex-grow-1 bd-highlight">মেসেজ সেন্ড করুন</h4>
+                                                <button type="button" data-toggle="modal" data-target="#mymodal" class="p-2 bd-highlight modalCross"><h2>X</h2></button>
+                                            </div> 
+                                            
+                                            <p>আপনার ম্যাসেজটি বক্রের মধ্যে লিখে 'সেন্ড' বাটনে ক্লিক করুন।</p>
+                                            <small class="red-text">বিঃ দ্রঃ গিগ কেনার এর আগে কোন প্রকার ফোন নাম্বর, ইমেইল এড্রেস, বা ব্যাক্তিগত তথ শেয়ার করা যাবে না।</small><br>
+                                            <!-- <input class="text-box" placeholder="এখানে লিখুন..." type="text-area"> -->
+                                            <textarea name="message" class="textarea-text" id="" cols="36" rows="5">এখানে লিখুন...</textarea>
+                                        </div>
+                                        <div class="modal-footer modalBorder">
+                                            <button type="button" class="lastbutton" data-toggle="modal" data-target="#mymodal">ক্যান্সেল</button>
+                                            <button type="button" class="red-button" data-toggle="modal">প্রেরণ করুন</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <button class="red-button"><strong>অর্ডার করুন</strong></button>
                         </div>
                     </div>
@@ -259,6 +284,12 @@
         </div>
     </footer>
     <!-- Footer end -->
+
+    <!-- JS, Popper.js, and jQuery from bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
     
 </body>
 </html>
