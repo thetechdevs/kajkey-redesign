@@ -104,39 +104,92 @@
     <!-- create-job start -->
     <section class="container create-job-section">
         <div class="create-job-head">
-            <h1>আপনার কাজ দিটেইলস</h1>
+            <h1>আপনার কাজ ডিটেইলস</h1>
         </div>
         <div class="create-job-body">
             <h3><strong>আপনার কাজএর টাইটেল</strong></h3>
-            <p class="slim-border">অয়েবসাইট ডেভলপমেন্ট</p>
+            
+            <input class="slim-border" type="text" name="" id="" placeholder="অয়েবসাইট ডেভলপমেন্ট">
             <h3><strong>বিবরণ</strong></h3>
             
-            <textarea class="textArea" name="message" id="" cols="87" rows="10">আমি আপনার কাজটি নিরধারিত সময়ের মাঝে করে দিতে পারবো</textarea>
+            <!-- <textarea class="textArea" name="message" id="" cols="87" rows="10">আমি আপনার কাজটি নিরধারিত সময়ের মাঝে করে দিতে পারবো</textarea> -->
+
+            <div >
+                <textarea class="editor-textbox"></textarea>
+                <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+                <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
+            </div>
+
+
             <p class="red-text">কাজের বর্ণনা অবশ্যই দিতে হবে</p>
             <p><strong>আপনার কাজের ক্যাটাগরি সিলেক্ট করুন</strong></p>
-            <p class="slim-border">ক্যাটাগরি সিলেক্ট করুন</p>
-            <p><strong>আপনার কাজের বাজেট <span class="span">লোকেশন(অপশনাল)</span></strong></p>
+
+            <!-- dropDown start -->
+            <div class="d-flex bd-highlight dropDown-section">
+                <div class="p-2 w-100 bd-highlight">ক্যাটাগরি সিলেক্ট করুন</div>
+                <div class="p-2 flex-shrink-1 bd-highlight">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle-split dropDown-button downArrow-icon" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="arrow-down"></i></button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
+                </div>
+              </div>
+
+
+            <!-- dropDown start -->
             <div class="row">
                 <div class="col-md-6">
-                    <input class="slim-border" type="text" placeholder="৳">
+                    <p><strong>আপনার কাজের বাজেট</strong></p>
+                    <input class="slim-border" type="number" name="quantity" min="1" placeholder="৳">
                 </div>
                 <div class="col-md-6">
-                    <input class="slim-border" type="text" placeholder="জেলা পছন্দ করুন">
+                    <p><strong>লোকেশন(অপশনাল)</strong></p>
+                    <div class="d-flex bd-highlight dropDown-section">
+                        <div class="p-2 w-100 bd-highlight">জেলা পছন্দ করুন</div>
+                        <div class="p-2 flex-shrink-1 bd-highlight">
+                            <div class="dropdown">
+                                <button class="dropdown-toggle-split dropDown-button downArrow-icon" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="arrow-down"></i></button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
                 </div>
                 
             </div>
             <p class="dash-border">ক্লিক অথবা ফাইল ড্রাগ  ড্রপ করুন</p>
             <p><strong>ইউ আর এল লিংক</strong></p>
-            <p class="slim-border">প্রজেক্ট রেলেটড লিংক দিন</p>
+            <input class="slim-border" type="text" name="" id="" placeholder="প্রজেক্ট রেলেটড লিংক দিন">
             <p><strong>কি কি আপনার স্কিলে ফ্রিলেন্সার প্রয়োজন?</strong></p>
-            <p class="slim-border">স্কিল সিলেক্ট করুন</p>
-            <button class="subnit-button">সাবমিট করুন</button>
-            
-        </div>
 
+            <div class="d-flex bd-highlight dropDown-section">
+                <div class="p-2 w-100 bd-highlight">স্কিল সিলেক্ট করুন</div>
+                <div class="p-2 flex-shrink-1 bd-highlight">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle-split dropDown-button downArrow-icon" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="arrow-down"></i></button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
+                </div>
+              </div>
+
+            <button class="submit-button">সাবমিট করুন</button> 
+        </div>
     </section>
 
     <!-- create-job end -->
+
+    
     
     <!-- Footer start -->
     <footer class="footer">
