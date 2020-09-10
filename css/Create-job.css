@@ -54,11 +54,8 @@
 
 
 .textArea {
-    border: 1px solid lightgray;
-    border-radius: 5px;
     color: gray;
     padding: 20px;
-    margin: 20px 0px;
 }
 
 .editor-textbox {
