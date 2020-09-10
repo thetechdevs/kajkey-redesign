@@ -53,20 +53,34 @@ body {
     width: 55px;
 }
 .logo-chat {
-    margin-top: 8px;
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+.logo-chat:hover {
+    background-color: lightgray;
+    padding: 0px 20px;
+    border-radius: 30px;
 }
 .logo-notification {
-    margin-left: 30px;
+    margin-left: 2px;
     margin-top: 8px;
+    padding: 0px 20px;
+}
+.logo-notification:hover {
+    background-color: lightgray;
+    padding: 0px 20px;
+    border-radius: 30px; 
 }
 .logo-profilePicture {
-    margin-left: 15px;
+    margin-left: 5px;
 }
 .user-name {
     margin-top: 15px;
 }
-/********* Navbar end *********/
 
+
+/********* Navbar end *********/
+/* transection start */
 .my-jobs {
     margin-top: 100px;
 }
@@ -75,7 +89,7 @@ body {
     background-color: white;
     padding: 10px;
 }
-.work-button1 {
+/* .work-button1 {
     background-color: lightgray;
     border: none;
     margin-top: 5px;
@@ -88,8 +102,54 @@ body {
     background-color: rgb(235, 23, 99);
     padding: 5px 10px;
     color: white;
+} */
+.transaction-form {
+    text-align: center;
+    border: 1px solid lightgray;
+    margin: 0px;
+    border-top: none;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
-.freelancer-clear {
+.transaction-filter {
+    background-color: white;
+}
+.transaction-type {
+    background-color: white;
+}
+.filter-clear {
+    color: rgb(235, 23, 99);
+    background-color: transparent;
+    border: rgb(235, 23, 99) solid 2px;
+    border-radius: 5px ;
+    padding: 5px 40px;
+    margin-top: 30px;
+}
+.filter-clear:hover {
+    color: white;
+    background-color: rgb(235, 23, 99);
+    border: rgb(235, 23, 99) solid 2px;
+    border-radius: 5px;
+    padding: 5px 40px;
+}
+.history-button {
+    color: red;
+}
+/* .transaction-filter {
+    border: 1px solid lightgray;
+    margin: 0px;
+    border-top: none;
+    padding: 20px;
+    background-color: white;
+    
+}
+.search-box1 {
+    border: 1px solid lightgray;
+    padding: 5px 15px;
+    
+} */
+/* .freelancer-clear {
     color: rgb(235, 23, 99);
     background-color: transparent;
     border: rgb(235, 23, 99) solid 2px;
@@ -104,44 +164,99 @@ body {
     border: rgb(235, 23, 99) solid 2px;
     border-radius: 5px;
     padding: 5px 40px;
-}
-.search-box {
-    padding: 5px 100px;
-    border: 1px solid lightgray;
-}
-.job-keyword {
-    padding-left: 30px;
-
-}
-
-.work-details {
-    border: 1px solid lightgray;
-    border-top: none;
+} */
+/* .status {
     margin: 0px;
-    padding: 15px;
-    background-color: white;
-
-}
-.search-box1 {
-    padding: 5px 10px;
+} */
+.border {
     border: 1px solid lightgray;
 }
-.job-content {
-    border: 1px solid lightgray;
+.transaction-filter {
+    border: 1px solid lightslategray;
     margin-top: 50px;
-    background-color: #f9f9f9;
+    padding: 20px;
+    border-bottom: none;
 }
-.job-details {
-    padding: 8px;
-    padding-top: 20px;
+.transaction-type {
+    border: 1px solid lightslategray;
+    padding: 20px
     
 }
-.job-ftr {
+.period1 input {
+    margin-left: 5px;
+    width: 150px;
     border: 1px solid lightgray;
-    padding: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.period2 input {
+    margin-left: 5px;
+    width: 150px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+.search-box2 {
+    padding: 5px;
+    /* border: 1px solid lightgray; */
+    
+}
+.transactionFilter-type {
+    padding: 8px;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin-top: 25px;
+}
+.transactionFilter-type h5 {
+    display: flex;
+    padding-top: 8px;
+    padding: 10px;
+    
+}
+.transactionFilter-details {
+    padding: 200px;
+    border: 1px solid lightgray;
+    border-top: none;
+
+    
+    background-color: white;
+}
+.transactionFilter-footer  {
+    padding: 20px;
+    border: 1px solid lightgray;
+    margin-bottom: 30px;
+    margin-top: none;
     background-color: white;
     border-top: none;
+    
 }
+.page {
+    margin-top: 15px;
+}
+.button-toolbar {
+    margin-top: 11px;
+}
+.buttonToolbar-details {
+    margin-top: 16px;
+}
+/*
+.freelancer-clear {
+    color: rgb(235, 23, 99);
+    background-color: transparent;
+    border: rgb(235, 23, 99) solid 2px;
+    border-radius: 5px ;
+    padding: 5px 40px;
+    margin-top: 45px;
+    
+}
+.freelancer-clear:hover {
+    color: white;
+    background-color: rgb(235, 23, 99);
+    border: rgb(235, 23, 99) solid 2px;
+    border-radius: 5px;
+    padding: 5px 40px; */
+
 
 
 
@@ -149,7 +264,6 @@ body {
 footer {
     background-color: dimgrey;
     color: white;
-    margin-top: 100px;
 }
 
 .footer-brand {
@@ -210,4 +324,5 @@ footer {
 .fa-linkedin {
     background: white;
     color: dimgrey;
+}
 /********* Footer end *********/
