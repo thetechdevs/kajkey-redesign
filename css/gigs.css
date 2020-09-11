@@ -1,0 +1,72 @@
+.gigs-topImg {
+    margin-top: 65px;
+}
+
+.gigs-topImg img {
+   width: 100%;
+}
+
+.all-servise {
+    padding-top: 10px;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+.gigs-cart{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-top: none;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.left-ancor a {
+    color: black;
+}
+
+.left-ancor {
+    
+    padding: 5px 20px;
+}
+
+.left-ancor:hover {
+    background-color: lightgray;
+    padding: 5px 20px;
+}
+
+.all a {
+    color: black;
+}
+
+.all {
+    background-color: rgb(194, 194, 194);
+    padding: 5px 20px;
+}
+
+.card-row {
+    margin-bottom: 20px;
+}
+
+.seeMore-button {
+    text-align: center;
+}
+
+.seeMore-button button {
+    border: 2px solid rgb(235, 23, 99);
+    border-radius: 5px;
+    background-color: rgb(235, 23, 99);
+    color: white;
+    padding: 10px 20px;
+    margin-top: 40px;
+}
+
+.seeMore-button button:hover {
+    border: 2px solid rgb(235, 23, 99);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(235, 23, 99);
+    padding: 10px 20px;
+    margin-top: 40px;
+}
