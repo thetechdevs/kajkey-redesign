@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="./css/my-jobs.css">
+    <title>সেরা কম্পানি ও ফ্রিল্যান্সারদের সাথে প্রজেক্ট করুন ঘরে বসেই!</title>
+</head>
+<body>
+    <!-- Navbar start -->
+    <header class="fixed-top customNavbar">
+        <nav class="container navbar navbar-expand-lg navbar-light d-flex align-items-center">
+
+            <button class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- medium and big screen logo -->
+            <a class="navbar-brand d-none d-md-block" href="./">
+                <img src="./img/home/navbar/logo.png" alt="logo">
+            </a>
+
+            <!-- small screen logo -->
+            <a class="navbar-brand d-block d-md-none" href="./">
+                <img src="./img/home/navbar/logo2.png" alt="logo">
+            </a>
+
+            <form class="searchBox d-none d-md-block">
+                <img src="./img/home/navbar/kk-search.svg" alt="kk-search">
+                <img src="./img/home/navbar/dropdown-triangle.svg" alt="dropdown-triangle">
+                <input type="text" name="search" id="search" placeholder="ফ্রীল্যান্সার খুঁজুন">
+            </form>
+          
+            <button class="btn d-block d-md-none" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                </svg>
+            </button>
+
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body" style="width: 100%;">
+                    <form class="searchBox">
+                        <img src="./img/home/navbar/kk-search.svg" alt="kk-search">
+                        <img src="./img/home/navbar/dropdown-triangle.svg" alt="dropdown-triangle">
+                        <input type="text" name="search" id="search">
+                    </form>
+                </div>
+            </div>
+
+            <button class="navbar-toggler d-none d-md-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto d-flex justify-content-around">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            প্রজেক্ট সমূহ
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">কাজ খুঁজুন</a>
+                            <a class="dropdown-item" href="#">গিগ পোস্ট করুন</a>
+                            <a class="dropdown-item" href="#">প্রোফাইল ক্রিয়েট করুন</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ফ্রিল্যান্সার
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">কাজ পোস্ট করুন</a>
+                            <a class="dropdown-item" href="#">ফ্রিল্যান্সার খুঁজুন</a>
+                            <a class="dropdown-item" href="#">সকল গিগস</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav mr-auto my-2 my-lg-0">
+                    <li class="nav-item logo-chat">
+                        <a class="nav-link navText" href="#" tabindex="-1" aria-disabled="true"></a>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                          </svg>
+                        
+                    </li>
+
+                    <li class="nav-item logo-notification">
+                        <a class="nav-link navText" href="#" tabindex="-1" aria-disabled="true"></a>
+
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bell" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z"/>
+                            <path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                          </svg>
+                    </li>
+                    <li class="nav-item logo-profilePicture">
+                        <a class="nav-link navText" href="#" tabindex="-1" aria-disabled="true"></a>
+                        <img  src="https://www.vippng.com/png/detail/416-4161690_empty-profile-picture-blank-avatar-image-circle.png" alt="">
+
+                    </li>
+                    <li class="nav-item dropdown user-name">
+                        <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <small> MD ARIF HOSSAIN</small>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">আমার প্রোফাইল</a>
+                            <a class="dropdown-item" href="#">আমার ক্রেডিট</a>
+                            <a class="dropdown-item" href="#">ওয়ার্কস্পেস</a>
+                            <a class="dropdown-item" href="#">লগআউট</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <!-- Navbar end -->
+    <!-- my-jobs start -->
+    <section class="container my-jobs">
+        
+        <div class="d-flex bd-highlight my-work">
+            <div class="p-2 flex-grow-1 bd-highlight"><h4><strong>আমার প্রজেক্ট</strong></h4></div>
+            <div class="p-2 bd-highlight"><button class="work-button1">পূর্ববর্তী</button></div>
+            <div class="p-2 bd-highlight"><button class="work-button2">বর্তমান কাজ</button></div>                    
+        </div>
+        
+        <div class="row work-details">
+            <div class="col-md-6 job-keyword">
+                <p><strong>কিওয়ার্ড</strong> </p>
+                <input class="search-box" type="text" name="search" id="search" placeholder="কিওয়ার্ড দিয়ে কাজ খুঁজুন">
+            </div>
+            <div class="col-md-3">
+                <p><strong>স্ট্যাটাস</strong> </p>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle search-box1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        স্ট্যাটাস সিলেক্ট করুন
+                    
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">গ্রাফিক্স ডিজাইন</a>
+                        </div> 
+                    </div>
+            
+            </div>
+            <div class="col-md-3">
+                    <button class="freelancer-clear">ফিল্টার ক্লিয়ার করুন</button>
+                </div>
+        </div>
+        <div class="job-content">
+            <div class="d-flex justify-content-between">
+                <p class="job-details">কাজের টাইটেল</p>
+                <p class="job-details">বিড নম্বর</p> 
+                <p class="job-details">বাজেট</p>
+                <p class="job-details">ওপেন ডেট</p>
+                <p class="job-details">স্ট্যাটাস</p>
+                <p class="job-details">অ্যাকশান</p>
+            </div>
+        </div>
+        <div class="job-ftr">
+
+        </div>
+    </section>
+
+
+    <!-- Footer start -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="row mx-auto">
+                <div class="col-12 col-sm-4 footer-brand">
+                    <a href="#"><img src="./img/home/footer/logoFooter.png" height="40" width="90"></a>
+                </div>
+
+                <div class="col-12 col-sm-4 row-footer">
+                    <a class="color" href="#">Terms of Service</a>
+                    <div class="col-12 col-sm">
+                        <a class="color" href="#">Privacy Policy</a>
+                    </div>
+                    
+                </div>
+
+                <div class="col col-sm-4 footerA">
+                    <h5>Follow us on</h5>
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="row footer-last">
+                <div class="col-auto">
+                    <p>KajKey.com - KajKey Inc.Gowsia Jui Garden, house 2/A, road 2/1, Banani, Dhaka - 1213</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Footer end -->
+    
+    
+
+    <!-- JS, Popper.js, and jQuery from bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- custom js -->
+    <script src="./js/main.js"></script>
+</body>
+</html>

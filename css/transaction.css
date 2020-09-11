@@ -1,0 +1,328 @@
+/********* all start *********/
+body {
+    font-family: "Noto Sans Bengali", "SoalimanLipi", sans-serif;
+    background-color: #f9f9f9;
+}
+/********* all end *********/
+
+
+/********* Navbar start *********/
+.customNavbar {
+    background-color: white;
+}
+
+.navbar-brand img {
+    width: 100px;
+    margin-top: 3px;
+}
+
+.searchBox {
+    border: 1px solid lightgray;
+    padding: 7px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.searchBox input {
+    border: none;
+}
+
+.bi-search {
+    border-color: transparent;
+}
+
+.navText {
+    color: rgb(235, 23, 99) !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .customNavbar {
+        background-color: rgb(235, 23, 99);
+        color: white;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    .bi-search {
+        color: white;
+    }
+}
+.nav-item img{
+    width: 55px;
+}
+.logo-chat {
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+.logo-chat:hover {
+    background-color: lightgray;
+    padding: 0px 20px;
+    border-radius: 30px;
+}
+.logo-notification {
+    margin-left: 2px;
+    margin-top: 8px;
+    padding: 0px 20px;
+}
+.logo-notification:hover {
+    background-color: lightgray;
+    padding: 0px 20px;
+    border-radius: 30px; 
+}
+.logo-profilePicture {
+    margin-left: 5px;
+}
+.user-name {
+    margin-top: 15px;
+}
+
+
+/********* Navbar end *********/
+/* transection start */
+.my-jobs {
+    margin-top: 100px;
+}
+.my-work {
+    border: 1px solid lightgray;
+    background-color: white;
+    padding: 10px;
+}
+/* .work-button1 {
+    background-color: lightgray;
+    border: none;
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+.work-button2 {
+    background-color: lightgray;
+    border: none;
+    margin-top: 5px;
+    background-color: rgb(235, 23, 99);
+    padding: 5px 10px;
+    color: white;
+} */
+.transaction-form {
+    text-align: center;
+    border: 1px solid lightgray;
+    margin: 0px;
+    border-top: none;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.transaction-filter {
+    background-color: white;
+}
+.transaction-type {
+    background-color: white;
+}
+.filter-clear {
+    color: rgb(235, 23, 99);
+    background-color: transparent;
+    border: rgb(235, 23, 99) solid 2px;
+    border-radius: 5px ;
+    padding: 5px 40px;
+    margin-top: 30px;
+}
+.filter-clear:hover {
+    color: white;
+    background-color: rgb(235, 23, 99);
+    border: rgb(235, 23, 99) solid 2px;
+    border-radius: 5px;
+    padding: 5px 40px;
+}
+.history-button {
+    color: red;
+}
+/* .transaction-filter {
+    border: 1px solid lightgray;
+    margin: 0px;
+    border-top: none;
+    padding: 20px;
+    background-color: white;
+    
+}
+.search-box1 {
+    border: 1px solid lightgray;
+    padding: 5px 15px;
+    
+} */
+/* .freelancer-clear {
+    color: rgb(235, 23, 99);
+    background-color: transparent;
+    border: rgb(235, 23, 99) solid 2px;
+    border-radius: 5px ;
+    padding: 5px 40px;
+    margin-top: 45px;
+    
+}
+.freelancer-clear:hover {
+    color: white;
+    background-color: rgb(235, 23, 99);
+    border: rgb(235, 23, 99) solid 2px;
+    border-radius: 5px;
+    padding: 5px 40px;
+} */
+/* .status {
+    margin: 0px;
+} */
+.border {
+    border: 1px solid lightgray;
+}
+.transaction-filter {
+    border: 1px solid lightslategray;
+    margin-top: 50px;
+    padding: 20px;
+    border-bottom: none;
+}
+.transaction-type {
+    border: 1px solid lightslategray;
+    padding: 20px
+    
+}
+.period1 input {
+    margin-left: 5px;
+    width: 150px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.period2 input {
+    margin-left: 5px;
+    width: 150px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+.search-box2 {
+    padding: 5px;
+    /* border: 1px solid lightgray; */
+    
+}
+.transactionFilter-type {
+    padding: 8px;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin-top: 25px;
+}
+.transactionFilter-type h5 {
+    display: flex;
+    padding-top: 8px;
+    padding: 10px;
+    
+}
+.transactionFilter-details {
+    padding: 200px;
+    border: 1px solid lightgray;
+    border-top: none;
+
+    
+    background-color: white;
+}
+.transactionFilter-footer  {
+    padding: 20px;
+    border: 1px solid lightgray;
+    margin-bottom: 30px;
+    margin-top: none;
+    background-color: white;
+    border-top: none;
+    
+}
+.page {
+    margin-top: 15px;
+}
+.button-toolbar {
+    margin-top: 11px;
+}
+.buttonToolbar-details {
+    margin-top: 16px;
+}
+/*
+.freelancer-clear {
+    color: rgb(235, 23, 99);
+    background-color: transparent;
+    border: rgb(235, 23, 99) solid 2px;
+    border-radius: 5px ;
+    padding: 5px 40px;
+    margin-top: 45px;
+    
+}
+.freelancer-clear:hover {
+    color: white;
+    background-color: rgb(235, 23, 99);
+    border: rgb(235, 23, 99) solid 2px;
+    border-radius: 5px;
+    padding: 5px 40px; */
+
+
+
+
+/********* Footer start *********/
+footer {
+    background-color: dimgrey;
+    color: white;
+}
+
+.footer-brand {
+    padding: 15px;
+}
+
+.row-footer {
+    display: flex;
+    font-size: 14px;
+    padding: 45px;
+}
+
+.footerA {
+    text-align: right;
+    padding: 15px;
+}
+
+.footerA h5 {
+    font-size: 18px;
+}
+
+.row-footer :hover {
+    color: rgb(235, 23, 99);
+    text-decoration: none;
+}
+
+.color {
+    color: white;
+    text-align: center;
+}
+
+.footer-last {
+    font-size: 15px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: white;
+    color: dimgrey;
+    font-weight: 500;
+}
+
+.fa-linkedin {
+    background: white;
+    color: dimgrey;
+}
+/********* Footer end *********/
