@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/chat.css">
+</head>
+<body>
+    <!-- Navbar start -->
+<header class="fixed-top customNavbar">
+    <nav class="container navbar navbar-expand-lg navbar-light d-flex align-items-center">
+
+        <button class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- medium and big screen logo -->
+        <a class="navbar-brand d-none d-md-block" href="/">
+            <img src="./img/home/navbar/logo.png" alt="logo">
+        </a>
+
+        <!-- small screen logo -->
+        <a class="navbar-brand d-block d-md-none" href="/">
+            <img src="./img/home/navbar/logo2.png" alt="logo">
+        </a>
+
+        <form class="searchBox d-none d-md-block">
+            <img src="./img/home/navbar/kk-search.svg" alt="kk-search">
+            <img src="./img/home/navbar/dropdown-triangle.svg" alt="dropdown-triangle">
+            <input type="text" name="search" id="search" placeholder="ফ্রীল্যান্সার খুঁজুন">
+        </form>
+        
+        <button class="btn d-block d-md-none" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+            </svg>
+        </button>
+
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body" style="width: 100%;">
+                <form class="searchBox">
+                    <img src="./img/home/navbar/kk-search.svg" alt="kk-search">
+                    <img src="./img/home/navbar/dropdown-triangle.svg" alt="dropdown-triangle">
+                    <input type="text" name="search" id="search">
+                </form>
+            </div>
+        </div>
+
+        <button class="navbar-toggler d-none d-md-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto d-flex justify-content-around">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ফ্রিল্যান্সার
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">কাজ খুঁজুন</a>
+                        <a class="dropdown-item" href="#">গিগ পোস্ট করুন</a>
+                        <a class="dropdown-item" href="#">প্রোফাইল ক্রিয়েট করুন</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        এমপ্লয়ার
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">কাজ পোস্ট করুন</a>
+                        <a class="dropdown-item" href="#">ফ্রিল্যান্সার খুঁজুন</a>
+                        <a class="dropdown-item" href="#">সকল গিগস</a>
+                    </div>
+                </li>
+
+            </ul>
+
+            <ul class="navbar-nav mr-auto my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link navText" href="#" tabindex="-1" aria-disabled="true">লগ ইন</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link navText" href="#" tabindex="-1" aria-disabled="true">সাইন আপ</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+</header>
+<!-- Navbar end -->
+
+<!-- Chatting start-->
+<div class="container">
+    <div class="row chatBox">
+        <div class="col-md-3 leftBox">
+            <div class="textBox">
+               <input class="inputFirst" placeholder="All Text" type="text">
+            </div>
+            <br>
+            <div class="imgBox">
+                <img class="img" src="/kajkey-redesign/img/jobDetails/RD 38091(1).JPG" alt="">
+                <h6>AR Bijoy</h6>
+                <h6></h6>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-8 rightBox">
+            <div class="topBox">
+                <div class="d-flex bd-highlight">
+                    <div class="p-2 w-100 bd-highlight">
+                        <h5>Background Removal Clipping Path and Shadow</h5>
+                    </div>
+                    <div class="p-2 flex-shrink-1 bd-highlight">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left-dots-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                          </svg>
+                    </div>
+                  </div>
+               <hr>
+            </div>
+            <hr>
+            <div class="footerBox">
+               
+                    <div class="d-flex bd-highlight">
+                        <div class="p-2 w-100 bd-highlight">
+                            <input class="inputLast" placeholder="Ehaney likhun" type="text">
+                        </div>
+                        <div class="p-2 flex-shrink-1 bd-highlight">
+                            <button class="sendBtn">Save</button>
+                        </div>
+                      </div>
+                    
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Chatting end-->
+
+    
+</body>
+</html>
